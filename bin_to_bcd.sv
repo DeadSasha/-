@@ -1,15 +1,10 @@
 module bin_to_bcd
 (
 input logic [6:0] 		preobr,
-//output logic [3:0] 	hundreds,
-//output logic [3:0] 	tens,
-//output logic [3:0] 	ones
 output logic [6:0] 		ssegment1,
 output logic [6:0] 		ssegment2,
 output logic [6:0] 		ssegment3
-//output logic [6:0] 		ssegment4
 );
-//logic [3:0] thousands;
 logic [3:0] hundreds;
 logic [3:0] tens;
 logic [3:0] ones;
@@ -44,7 +39,6 @@ SEG7 DISPLAY_HEX
 .seg1		(ssegment1),
 .seg2		(ssegment2),
 .seg3		(ssegment3)
-//.seg4    (ssegment4)
 );
 
 endmodule

@@ -6,7 +6,6 @@ input logic [3:0] i_ones,
 output logic [6:0] seg1,
 output logic [6:0] seg2,
 output logic [6:0] seg3
-//output logic [6:0] seg4
 );
 
 always_comb
